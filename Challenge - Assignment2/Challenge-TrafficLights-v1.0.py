@@ -1,8 +1,8 @@
 #################################################################
-#								                                #
-#			XAMK IoT - Assignment2 - Traffic Lights             #
-#			                                                    #
-#   								     Eimantas Mažeika 2021  #
+#                                                               #
+#           XAMK IoT - Assignment2 - Traffic Lights             #
+#                                                               #
+#                                        Eimantas Mažeika 2021  #
 #################################################################
 import RPi.GPIO as GPIO
 from time import sleep
