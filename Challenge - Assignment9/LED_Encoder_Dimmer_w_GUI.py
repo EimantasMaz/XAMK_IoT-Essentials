@@ -6,7 +6,7 @@
 ##########################################################################
 import RPi.GPIO as GPIO
 from time import sleep
-from tkinter import * 
+from tkinter import *
 
 ENCODER_DT_PIN = 2
 ENCODER_CLK_PIN = 3

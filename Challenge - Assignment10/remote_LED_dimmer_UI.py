@@ -4,16 +4,13 @@
 #                                                                        #
 #                                                 Eimantas Mažeika 2021  #
 ##########################################################################
-import sys
+import sys # this might not be necesarry if python can succesfully find all the required paths to packages
 sys.path.append("c:\\users\\eiman\\appdata\\local\\packages\\pythonsoftwarefoundation.python.3.9_qbz5n2kfra8p0\\localcache\\local-packages\\python39\\site-packages")
-
 from gpiozero.pins.pigpio import PiGPIOFactory
 from time import sleep
-
 from gpiozero import PWMLED
 from gpiozero import Button
 from gpiozero import RotaryEncoder
-
 import tkinter as tk
 
 ## CONSTANTS AND PIN DEFINITIONS:
